@@ -1,0 +1,57 @@
+body{
+    justify-content: center;
+    display: flex;
+    min-height: 100vh;
+    background-image: url(imagenes/imagen_fondo.jpg);
+    background-size: cover;
+    background-position:center ;
+    text-shadow: rgb(124, 49, 49);
+}
+
+.imagen2{
+    width:80px;
+    height: auto;
+    transform: translate(-350px);
+}
+
+.imagen3 {
+    width: 200px;
+    height: auto;   
+    border-style: double;
+    position: relative;
+    transform: translate(-250px, 300px); /* Desplazar la imagen 20px hacia la derecha y 10px hacia abajo */
+}
+
+main {
+color: whitesmoke;
+}
+ 
+ul {
+    color: whitesmoke;
+}
+   
+nav ul {
+    list-style-type: none; /* Elimina los puntos de lista */
+    margin: 0; /* Elimina el margen predeterminado */
+    padding: 0; /* Elimina el relleno predeterminado */
+    text-align: right;
+}
+   
+nav ul li {
+    display: inline; /* Hace que los elementos de la lista aparezcan en línea */
+    margin-right: 30px; /* Espacio entre los elementos de la lista */
+}
+   
+nav ul li:last-child {
+    margin-right: 0; /* Elimina el margen derecho del último elemento de la lista */
+}
+   
+nav ul li a {
+    text-decoration: none; /* Elimina el subrayado predeterminado de los enlaces */
+    color: whitesmoke; /* Color del texto de los enlaces */
+    padding: 10px; /* Espacio alrededor del texto de los enlaces */
+}
+   
+nav ul li a:hover {
+    background-color: #504c4c; /* Cambia el color de fondo cuando se pasa el cursor sobre los enlaces */
+}

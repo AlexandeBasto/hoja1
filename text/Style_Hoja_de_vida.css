@@ -1,0 +1,106 @@
+/* Estilos para la página de hoja de vida */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(/imagenes/Razer-Ripsaw-HD-1.jpg);
+    color: whitesmoke;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+
+.contact-info {
+    margin-top: 20px;
+}
+
+.contact-info ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-info li {
+    margin-bottom: 5px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-section,
+.right-section {
+    flex-basis: 48%;
+}
+
+.left-section article,
+.right-section article {
+    background-color: transparent;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.left-section h1,
+.left-section h2,
+.left-section h3,
+.right-section h3,
+article h4 {
+    color: whitesmoke;
+    margin-top: 0;
+}
+
+.left-section ul,
+.right-section ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.left-section ul li,
+.right-section ul li {
+    margin-bottom: 5px;
+}
+
+.left-section h4,
+.right-section h4 {
+    margin-top: 15px;
+}
+
+.left-section h4:first-child,
+.right-section h4:first-child {
+    margin-top: 0;
+}
+
+/* Estilos de iconos FontAwesome */
+.fa,
+.fas {
+    margin-right: 5px;
+}
+
+/* Estilos interactivos */
+.left-section:hover,
+.right-section:hover {
+    background-color: rgb(24, 24, 24);
+    transition: background-color 0.3s ease;
+}
+
+.left-section article:hover,
+.right-section article:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
